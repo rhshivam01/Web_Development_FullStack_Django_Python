@@ -1,0 +1,96 @@
+{% load static %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700|Dancing+Script:700&display=swap" rel="stylesheet">
+
+    <style>
+           
+        body {
+        background: #f7f3ec;
+        font-family: 'EB Garamond', serif;
+        color: #3e2c19;
+        margin: 0;
+        padding: 0;
+    }
+    .c1 h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 0 #fff8e1, 2px 2px 4px #bfa77a;
+    }
+    .identify {
+        font-family: 'EB Garamond', serif;
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+        color: #a05a2c;
+        letter-spacing: 1px;
+    }
+    .identify11 {
+        background: #fff8e1;
+        border: 1.5px solid #a05a2c;
+        border-radius: 18px;
+        box-shadow: 0 4px 24px #d2b48c33;
+        padding: 36px 32px;
+        margin: 36px auto 0 auto;
+        max-width: 800px;
+        font-size: 1.18em;
+        line-height: 1.7;
+    }
+    hr {
+        border: none;
+        border-top: 2px solid #a05a2c;
+        width: 60%;
+        margin: 0 auto 24px auto;
+    }
+    p.identify11 {
+        background: #f7f3ec;
+        border: none;
+        box-shadow: none;
+        margin-top: 18px;
+        font-size: 1.08em;
+        color: #4e3a22;
+    }
+
+    </style>
+</head>
+<body>
+      <!-- Page Heading -->
+    <div class="c1">
+        <h2 style= "font-family: 'Dancing Script'; color: rgba(244, 185, 7, 1);"><b><I>Cornerstone Cafe</I></b></h2>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div>
+        {% include 'test1/navbar.html' %}
+    </div>
+    <!-- About US Section-->
+     <div>
+        <h1 class = "identify" style ="text-align:center;">About Cornerstone Cafe</h1>
+        <hr style= "width: 50%; margin: auto; border: 2px solid rgb(154, 92, 25);">
+        <h2 class = "identify11">
+            Welcome to Cornerstone Cafe, where we believe that every cup of coffee tells a story. Our cafe is not just a place to grab a quick drink; it's a community hub where friends gather, ideas spark, and memories are made.
+        </h2>
+        <p class="identify11">Welcome to Cornerstone Cafe, a beloved community staple that first opened its doors in July 2002. For over two decades, we've been proudly serving as a cornerstone of comfort and connection, a place where memories are brewed and friendships are forged.
+
+From day one, our passion has been to deliver an unparalleled cafe experience built on quality and warmth. We are renowned for our exceptional coffee espressos, crafted with carefully selected beans and expertly prepared by our skilled baristas. Each cup is a testament to our dedication to the perfect brew.
+
+But our offerings extend far beyond coffee. Indulge your sweet tooth with our freshly baked cookies and an array of delectable pastries, perfect for a morning treat or an afternoon pick-me-up. When hunger strikes, you can always count on our delicious afternoon pizzas, crispy fries, and juicy burgers – all prepared with the finest ingredients to ensure the best quality and flavor.
+
+At Cornerstone Cafe, we believe in creating more than just great food and drinks; we cultivate an atmosphere where you feel right at home. Whether you're catching up with friends, working remotely, or simply enjoying a moment of quiet reflection, we invite you to make our cafe your go-to spot.
+
+Come in, relax, and savor the Cornerstone Cafe experience – where every visit feels like coming home.</p>
+     </div>
+     </br></br></br></br></br></br>
+    <div>
+      {% include 'test1/footer.html' %}
+    </div>
+
+
+</body>
+</html>
